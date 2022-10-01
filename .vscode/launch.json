@@ -9,7 +9,10 @@
             "name": "Launch DemoApplication",
             "request": "launch",
             "mainClass": "com.ningning.demo.DemoApplication",
-            "projectName": "demo"
+            "projectName": "demo",
+            "env": {
+                "JASYPT_ENCRYPTOR_PASSWORD": "1234"
+              }
         }
     ]
 }
